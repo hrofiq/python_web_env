@@ -1,6 +1,6 @@
 import os
 
-env = "List of environment variable: <br><br>"
+env = "List of environment variables: <br><br>"
 
 for name, value in os.environ.items():
     env += "{0}: {1}<br>".format(name, value)
